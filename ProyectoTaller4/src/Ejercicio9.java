@@ -7,9 +7,9 @@ public class Ejercicio9 {
         double base_triangulo, alto_triangulo, area_triangulo, area_cuadrado, area_rectángulo, area_total;
         Scanner tecladoScanner = new Scanner(System.in);
 
-        System.out.println("ingrese la base del triangulo o el lado del cuadrado");
+        System.out.println("ingrese la base del triangulo o el lado del cuadrado:");
         base_triangulo = tecladoScanner.nextDouble();
-        System.out.println("ingrese la atura del triangulo");
+        System.out.println("ingrese la atura del triangulo:");
         alto_triangulo = tecladoScanner.nextDouble();
         tecladoScanner.close();
 
@@ -18,7 +18,7 @@ public class Ejercicio9 {
         area_rectángulo = base_triangulo * alto_triangulo;
         area_total = area_cuadrado + (area_triangulo * 3) + area_rectángulo;
 
-        System.out.println(" el area de la figura es : " + area_total);
+        System.out.println(" el area de la figura es:\n" + area_total);
 
     }
 }
@@ -29,5 +29,6 @@ public class Ejercicio9 {
  * 2
  * ingrese la atura del triangulo
  * 1
- * el area de la figura es : 9.0
+ * el area de la figura es:
+ * 9.0
  */

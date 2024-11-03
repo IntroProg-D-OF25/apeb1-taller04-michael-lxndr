@@ -30,17 +30,18 @@ public class Ejercicio3 {
 }
 
 /*
+ * Salida de resultados
  * Ingrese la tabla q desea consultar:
  * 3
- * 1 * 3.0 es igual a 3.0
- * 2 * 3.0 es igual a 6.0
- * 3 * 3.0 es igual a 9.0
- * 4 * 3.0 es igual a 12.0
- * 5 * 3.0 es igual a 15.0
- * 6 * 3.0 es igual a 18.0
- * 7 * 3.0 es igual a 21.0
- * 8 * 3.0 es igual a 24.0
- * 9 * 3.0 es igual a 27.0
+ *  1 * 3.0 es igual a 3.0
+ *  2 * 3.0 es igual a 6.0
+ *  3 * 3.0 es igual a 9.0
+ *  4 * 3.0 es igual a 12.0
+ *  5 * 3.0 es igual a 15.0
+ *  6 * 3.0 es igual a 18.0
+ *  7 * 3.0 es igual a 21.0
+ *  8 * 3.0 es igual a 24.0
+ *  9 * 3.0 es igual a 27.0
  * 10 * 3.0 es igual a 30.0
  * 11 * 3.0 es igual a 33.0
  * 12 * 3.0 es igual a 36.0

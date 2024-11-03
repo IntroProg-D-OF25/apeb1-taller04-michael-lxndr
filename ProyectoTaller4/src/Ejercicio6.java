@@ -6,9 +6,9 @@ public class Ejercicio6 {
         int m;
         Scanner tecladoScanner = new Scanner(System.in);
 
-        System.out.println("Introduzca el monto total del préstamo");
+        System.out.println("Introduzca el monto total del préstamo:");
         monto_total = tecladoScanner.nextDouble();
-        System.out.println("Introduzca el porcentaje de interés mensual");
+        System.out.println("Introduzca el porcentaje de interés mensual:");
         interés_m = tecladoScanner.nextDouble();
         tecladoScanner.close();
 
@@ -16,15 +16,16 @@ public class Ejercicio6 {
         r = interés_m / 100;
         pago_mensual = (monto_total * (r * (Math.pow(1 + r, m))) / ((Math.pow((1 + r), m)) - 1));
 
-        System.out.println("El pago mensual es de: " + pago_mensual);
+        System.out.println("El pago mensual es de:\n" + pago_mensual);
     }
 }
 
 /*
  * Salida de resultados
- * Introduzca el monto total del préstamo
- * 1000
- * Introduzca el porcentaje de interés mensual
+ * Introduzca el monto total del préstamo:
+ * 900
+ * Introduzca el porcentaje de interés mensual:
  * 3
- * El pago mensual es de: 100.46208547296298
+ * El pago mensual es de:
+ * 90.41587692566668
  */

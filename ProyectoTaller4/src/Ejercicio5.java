@@ -5,31 +5,32 @@ public class Ejercicio5 {
         double costo_cpu, costo_teclado, costo_pantalla, costo_ratón, costo_total;
         Scanner tecladoScanner = new Scanner(System.in);
 
-        System.out.println("Introduzca el precio de CPU");
+        System.out.println("Introduzca el precio de CPU:");
         costo_cpu = tecladoScanner.nextDouble();
-        System.out.println("Introduzca el precio de Teclado");
+        System.out.println("Introduzca el precio de Teclado:");
         costo_teclado = tecladoScanner.nextDouble();
-        System.out.println("Introduzca el precio de la Pantalla");
+        System.out.println("Introduzca el precio de la Pantalla:");
         costo_pantalla = tecladoScanner.nextDouble();
-        System.out.println("Introduzca el precio del Ratón");
+        System.out.println("Introduzca el precio del Ratón:");
         costo_ratón = tecladoScanner.nextDouble();
         tecladoScanner.close();
 
         costo_total = costo_cpu + costo_teclado + costo_pantalla + costo_ratón;
 
-        System.out.println("El costo total de la computadora es de: " + costo_total);
+        System.out.println("El costo total de la computadora es de:\n" + costo_total);
     }
 
 }
 /*
  * Salida de resultados
- * Introduzca el precio de CPU
- * 3
- * Introduzca el precio de Teclado
- * 6
- * Introduzca el precio de la Pantalla
- * 9
- * Introduzca el precio del Ratón
+ * Introduzca el precio de CPU:
  * 2
- * El costo total de la computadora es de: 20.0
+ * Introduzca el precio de Teclado:
+ * 4
+ * Introduzca el precio de la Pantalla:
+ * 6
+ * Introduzca el precio del Ratón:
+ * 8
+ * El costo total de la computadora es de:
+ * 20.0
  */

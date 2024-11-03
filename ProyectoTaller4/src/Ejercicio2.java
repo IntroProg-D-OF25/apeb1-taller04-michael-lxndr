@@ -9,29 +9,30 @@ public class Ejercicio2 {
         Scanner tecladoScanner = new Scanner(System.in);
 
         // Bloque de lectura de datos de entrada
-        System.out.println("dame los gastos del Primer Hijo :");
+        System.out.println("Ingrese los gastos del Primer hijo:");
         gasto_hijo1 = tecladoScanner.nextDouble();
-        System.out.println("dame los gastos del Segundo hijo:");
+        System.out.println("Ingrese los gastos del Segundo hijo:");
         gasto_hijo2 = tecladoScanner.nextDouble();
-        System.out.println("dame los gastos del  Tercer hijo:");
+        System.out.println("Ingrese los gastos del Tercer hijo:");
         gasto_hijo3 = tecladoScanner.nextDouble();
-        tecladoScanner.close();
+        tecladoScanner.close(); // ? -> cerramos el escaneo del teclado
 
         // Bloque de procesamiento de datos de entrada
         total_gastos = gasto_hijo1 + gasto_hijo2 + gasto_hijo3;
 
         // Bloque de salida de Resultados
-        System.out.println("El total de gastos de los tres hijos es de : " + total_gastos);
+        System.out.println("El total de gastos de los tres hijos es de:\n" + total_gastos);
     }
 }
 
 /*
  * Salida de resultados
- * dame los gastos del Primer Hijo :
- * 3
- * dame los gastos del Segundo hijo:
- * 6
- * dame los gastos del Tercer hijo:
- * 9
- * El total de gastos de los tres hijos es de : 18.0
+ * Ingrese los gastos del Primer hijo:
+ * 30
+ * Ingrese los gastos del Segundo hijo:
+ * 60
+ * Ingrese los gastos del Tercer hijo:
+ * 90
+ * El total de gastos de los tres hijos es de:
+ * 180.0
  */
