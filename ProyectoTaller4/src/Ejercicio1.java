@@ -4,15 +4,16 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
     public static void main(String[] args) {
-        // Bloque declaracion de variables -> Datos entradas y salida
+        // Bloque declaración de variables -> Datos entradas y salida
         double base_triangulo, alto_triangulo, area_triangulo;
-        Scanner tecladoScanner = new Scanner(System.in); //Para leer vaores desde consola
+        Scanner tecladoScanner = new Scanner(System.in); // Para leer valores desde consola
 
         // Bloque de lectura de datos de entrada
         System.out.println("dame la base del triangulo :");
         base_triangulo = tecladoScanner.nextDouble();
-        System.out.println("dame la altura de trianguo :");
+        System.out.println("dame la altura de triangulo :");
         alto_triangulo = tecladoScanner.nextDouble();
+        tecladoScanner.close();
 
         // Bloque de procesamiento de datos de entrada
         area_triangulo = (alto_triangulo * base_triangulo) / 2;
@@ -22,11 +23,12 @@ public class Ejercicio1 {
 
     }
 }
+
 /*
-Salida de resultados
-dame la base del triangulo :
-3
-dame la altura de trianguo :
-6
-El area del triangulo es 9.0 
+ * Salida de resultados
+ * dame la base del triangulo :
+ * 3
+ * dame la altura de triangulo :
+ * 6
+ * El area del triangulo es 9.0
  */
